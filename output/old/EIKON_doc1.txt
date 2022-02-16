@@ -1,0 +1,36 @@
+SERIES<FREQ Daily >D163USEUR2YEB.d!
+'Exchange Rates: United States Dollar per Euro 2 Year Forward (WMR), Exchange Rate - Bid, Time Series, source from WM/Reuters'!
+;
+SERIES<FREQ Daily >D163USEUR2YEO.d!
+'Exchange Rates: United States Dollar per Euro 2 Year Forward (WMR), Exchange Rate - Offered, Time Series, source from WM/Reuters'!
+;
+SERIES<FREQ Daily >D163USEUR2YER.d!
+'Exchange Rates: United States Dollar per Euro 2 Year Forward (WMR), Exchange Rate - Middle, Time Series, source from WM/Reuters'!
+;
+SERIES<FREQ Daily >D163USEUR5YEB.d!
+'Exchange Rates: United States Dollar per Euro 5 Year Forward (WMR), Exchange Rate - Bid, Time Series, source from WM/Reuters'!
+;
+SERIES<FREQ Daily >D163USEUR5YEO.d!
+'Exchange Rates: United States Dollar per Euro 5 Year Forward (WMR), Exchange Rate - Offered, Time Series, source from WM/Reuters'!
+;
+SERIES<FREQ Daily >D163USEUR5YER.d!
+'Exchange Rates: United States Dollar per Euro 5 Year Forward (WMR), Exchange Rate - Middle, Time Series, source from WM/Reuters'!
+;
+SERIES<FREQ Daily >D163USXEU2YEB.d!
+'Exchange Rates: United States Dollar per 1 Euro 2 Year Forward (WMR), Exchange Rate - Bid, Time Series, source from WM/Reuters'!
+;
+SERIES<FREQ Daily >D163USXEU2YEO.d!
+'Exchange Rates: United States Dollar per 1 Euro 2 Year Forward (WMR), Exchange Rate - Offered, Time Series, source from WM/Reuters'!
+;
+SERIES<FREQ Daily >D163USXEU2YER.d!
+'Exchange Rates: United States Dollar per 1 Euro 2 Year Forward (WMR), Exchange Rate - Middle, Time Series, source from WM/Reuters'!
+;
+SERIES<FREQ Daily >D163USXEU5YEB.d!
+'Exchange Rates: United States Dollar per 1 Euro 5 Year Forward (WMR), Exchange Rate - Bid, Time Series, source from WM/Reuters'!
+;
+SERIES<FREQ Daily >D163USXEU5YEO.d!
+'Exchange Rates: United States Dollar per 1 Euro 5 Year Forward (WMR), Exchange Rate - Offered, Time Series, source from WM/Reuters'!
+;
+SERIES<FREQ Daily >D163USXEU5YER.d!
+'Exchange Rates: United States Dollar per 1 Euro 5 Year Forward (WMR), Exchange Rate - Middle, Time Series, source from WM/Reuters'!
+;

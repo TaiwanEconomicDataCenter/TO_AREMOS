@@ -1,0 +1,63 @@
+SERIES<FREQ Daily >D111DJCA.D!
+'United States Share Prices and Stock Indexes, Dow Jones Averages, Dow Jones Composite Average, Not Seasonally Adjusted, Unit: Index, Source: Federal Reserve Economic Data, Note: (1)The observations for the Dow Jones Composite Average represent the daily index value at market close. The market typically closes at 4 PM ET, except for holidays when it sometimes closes early. (2)The Dow Jones Composite Average is combination of all three major Dow Jones Averages (Industrial, Utility, and Transportation). Since the Composite Average is made up of this select group of prominent stocks, Dow Jones refers to it as a blue chip microcosm of the US stock market. For more information, please visit Dow Jones Composite Average (https://www.spglobal.com/spdji/en/indices/equity/dow-jones-composite-average/ overview).'!
+;
+SERIES<FREQ Daily >D111DJIA.D!
+'United States Share Prices and Stock Indexes, Dow Jones Averages, Dow Jones Industrial Average, Not Seasonally Adjusted, Unit: Index, Source: Federal Reserve Economic Data, Note: (1)The observations for the Dow Jones Industrial Average represent the daily index value at market close. The market typically closes at 4 PM ET, except for holidays when it sometimes closes early. (2)The Dow Jones Industrial Average provides a view of the US stock market and economy. Originally, the index was made up of 12 stocks, it now contains 30 component companies in various industries. See indexology (http://us.spindices.com/indexology/djia-and-sp-500?homepage=true) for more information.'!
+;
+SERIES<FREQ Daily >D111DJTA.D!
+'United States Share Prices and Stock Indexes, Dow Jones Averages, Dow Jones Transportation Average, Not Seasonally Adjusted, Unit: Index, Source: Federal Reserve Economic Data, Note: (1)The observations for the Dow Jones Transportation Average represent the daily index value at market close. The market typically closes at 4 PM ET, except for holidays when it sometimes closes early. (2)Originally made up of only railroad stocks, the Dow Jones Transportation Average now provides a view of the 20 transportation companies in US stock market. For more information, please visit Dow Jones Transportation Average (http://us.spindices.com/indices/equity/dow-jones-transportation-average).'!
+;
+SERIES<FREQ Daily >D111DJUA.D!
+'United States Share Prices and Stock Indexes, Dow Jones Averages, Dow Jones Utility Average, Not Seasonally Adjusted, Unit: Index, Source: Federal Reserve Economic Data, Note: (1)The observations for the Dow Jones Utility Average represent the daily index value at market close. The market typically closes at 4 PM ET, except for holidays when it sometimes closes early. (2)Originally made up of 18 utility stocks, the Dow Jones Transportation Average provides a view of the 15 different utility companies in US stock market. For more information, please visit Dow Jones Utility Average (http://us.spindices.com/indices/equity/dow-jones-utility-average).'!
+;
+SERIES<FREQ Daily >D111NASDAQ100.D!
+'United States Share Prices and Stock Indexes, NASDAQ, NASDAQ 100 Index, Not Seasonally Adjusted, Unit: Index, Source: Federal Reserve Economic Data, Note: (1)The observations for the NASDAQ 100 Index represent the daily index value at market close. The market typically closes at 4 PM ET, except for holidays when it sometimes closes early. (2)The NASDAQ 100 Index includes 100 of the largest domestic and international non-financial securities listed on The NASDAQ Stock Market based on market capitalization.'!
+;
+SERIES<FREQ Daily >D111NASDAQCOM.D!
+'United States Share Prices and Stock Indexes, NASDAQ, NASDAQ Composite Index, Not Seasonally Adjusted, Unit: Index Feb 5, 1971=100, Source: Federal Reserve Economic Data, Note: (1)The observations for the NASDAQ Composite Index represent the daily index value at market close. The market typically closes at 4 PM ET, except for holidays when it sometimes closes early. (2)The NASDAQ Composite Index is a market capitalization weighted index with more than 3000 common equities listed on the NASDAQ Stock Market. (3)The types of securities in the index include American depositary receipts (ADRs), common stocks, real estate investment trusts (REITs), and tracking stocks. The index includes all NASDAQ listed stocks that are not derivatives, preferred shares, funds, exchange-traded funds (ETFs) or debentures.'!
+;
+SERIES<FREQ Daily >D111NYA.D!
+'United States Share Prices and Stock Indexes, NYSE Composite Index, Not Seasonally Adjusted, Unit: Index: 2002.12.31=5000, Source: New York Stock Exchange'!
+;
+SERIES<FREQ Daily >D111SP500.D!
+'United States Share Prices and Stock Indexes, Standard & Poors, S&P 500, Not Seasonally Adjusted, Unit: Index, Source: Federal Reserve Economic Data, Note: (1)The observations for the S&P 500 represent the daily index value at market close. The market typically closes at 4 PM ET, except for holidays when it sometimes closes early. (2)The Federal Reserve Bank of St. Louis and S&P Dow Jones Indices LLC have reached a new agreement on the use of Standard & Poors and Dow Jones Averages series in FRED. FRED and its associated services will include 10 years of daily history for Standard & Poors and Dow Jones Averages series. (3)The S&P 500 is regarded as a gauge of the large cap U.S. equities market. The index includes 500 leading companies in leading industries of the U.S. economy, which are publicly held on either the NYSE or NASDAQ, and covers 75% of U.S. equities. Since this is a price index and not a total return index, the S&P 500 index here does not contain dividends.'!
+;
+SERIES<FREQ Daily >D112IUDBEDR.D!
+'United Kingdom Interest Rates and Bond Yields, Official Bank Rate*(1)*(2), Not Seasonally Adjusted, Unit: Percentage, Source: Bank of England, Note: (1)Prior to May 2012 the Official Bank rate was published to two decimal places but has since been changed to four decimal places for consistency. (2)On the 16th September 1992, the UK leaves the European Exchange Rate Mechanism. The minimum lending rate was raised to 12%, and planned to be raised to 15% (with effect from 17th September 1992; but never implemented). Please see: http://www.bankofengland.co.uk/archive/Documents/historicpubs/qb/1992/qb92q4382398.pdf for further explanation of changes implement to the minimum lending rate on Black Wednesday.'!
+;
+SERIES<FREQ Daily >D112XUDLBK67.D!
+'United Kingdom Interest Rates and Bond Yields, Effective exchange rate index, Sterling, Not Seasonally Adjusted, Unit: Index: 2005=100, Source: Bank of England'!
+;
+SERIES<FREQ Daily >D158BOJRMBANK.D!
+'Japan National Statistics, Interest Rates and Bond Yields, Basic Discount Rate (End of Period), Not Seasonally Adjusted, Unit: Percentage, Source: Bank of Japan'!
+;
+SERIES<FREQ Daily >D158TOPIX.D!
+'Japan Share Prices and Stock Indexes, TOPIX Index, Close, Not Seasonally Adjusted, Unit: Index: 1968.01.04=100, Source: Tokyo Stock Exchange, Inc.'!
+;
+SERIES<FREQ Daily >D158TSENIKK225.D!
+'Japan Share Prices and Stock Indexes, Nikkei 225 Stock Average Index, Close Price, Not Seasonally Adjusted, Unit: Index: 1949.05.16=100, Source: Tokyo Stock Exchange, Inc.'!
+;
+SERIES<FREQ Daily >D532HSCCI.D!
+'Hong Kong Share Prices and Stock Indexes, Hang Seng China Affiliated Corporation Index, Close Price, Not Seasonally Adjusted, Unit: Index: 1996.01.02=100, Source: Hong Kong Stock Exchange'!
+;
+SERIES<FREQ Daily >D532HSCEI.D!
+'Hong Kong Share Prices and Stock Indexes, Hang Seng China Enterprises Index, Close Price, Not Seasonally Adjusted, Unit: Index: 2001.10.17=100, Source: Hong Kong Stock Exchange'!
+;
+SERIES<FREQ Daily >D532HSI.D!
+'Hong Kong Share Prices and Stock Indexes, Hang Seng Index, Close Price, Not Seasonally Adjusted, Unit: Index: 1964.07.31=100, Source: Hong Kong Stock Exchange'!
+;
+SERIES<FREQ Daily >D576STI.D!
+'Singapore Share Prices and Stock Indexes, Straits Times Index, Close Price, Not Seasonally Adjusted, Unit: Index: 1966.12.31=100, Source: Singapore Exchange'!
+;
+SERIES<FREQ Daily >D924SSEA.D!
+'China Share Prices and Stock Indexes, Shanghai Stock Exchange Main Board, A Share Index, Close Price, Not Seasonally Adjusted, Unit: Index: 1992.01.21=100, Source: Shanghai Stock Exchange'!
+;
+SERIES<FREQ Daily >D924SSEB.D!
+'China Share Prices and Stock Indexes, Shanghai Stock Exchange Main Board, B Share Index, Close Price, Not Seasonally Adjusted, Unit: Index: 1992.01.21=100, Source: Shanghai Stock Exchange'!
+;
+SERIES<FREQ Daily >D924SZSEA.D!
+'China Share Prices and Stock Indexes, Shenzhen Stock Exchange Main Board, A Share Index, Close Price, Not Seasonally Adjusted, Unit: Index: 1994.10.04=100, Source: Shenzen Stock Exchange'!
+;
+SERIES<FREQ Daily >D924SZSEB.D!
+'China Share Prices and Stock Indexes, Shenzhen Stock Exchange Main Board, B Share Index, Close Price, Not Seasonally Adjusted, Unit: Index: 1992.02.28=100, Source: Shenzen Stock Exchange'!
+;

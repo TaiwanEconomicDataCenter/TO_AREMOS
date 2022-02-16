@@ -1,0 +1,303 @@
+SERIES<FREQ Daily >D111REXEURDECB.D!
+'Exchange Rate: United States Dollar per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D111REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per United States Dollar - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D111REXSDR.D!
+'Exchange Rate: United States Dollar per Special Drawing Right - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D111REXSDRD.D!
+'Exchange Rate: Special Drawing Rights per United States Dollar - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D112REXEURDECB.D!
+'Exchange Rate: British Pounds per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D112REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per British Pounds - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D112REXFRB.D!
+'Exchange Rate: British Pounds per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D112REXSDR.D!
+'Exchange Rate: British Pounds per Special Drawing Right - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D112REXSDRD.D!
+'Exchange Rate: Special Drawing Rights per British Pounds - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D128REXEURDECB.D!
+'Exchange Rate: Danish Kroner per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D128REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Danish Kroner - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D128REXFRB.D!
+'Exchange Rate: Danish Kroner per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D128REXSDR.D!
+'Exchange Rate: Danish Kroner per Special Drawing Right - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D128REXSDRD.D!
+'Exchange Rate: Special Drawing Rights per Danish Kroner - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D142REXEURDECB.D!
+'Exchange Rate: Norwegian Kroner per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D142REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Norwegian Kroner - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D142REXFRB.D!
+'Exchange Rate: Norwegian Kroner per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D142REXSDR.D!
+'Exchange Rate: Norwegian Kroner per Special Drawing Right - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D142REXSDRD.D!
+'Exchange Rate: Special Drawing Rights per Norwegian Kroner - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D144REXEURDECB.D!
+'Exchange Rate: Swedish Kronor per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D144REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Swedish Kronor - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D144REXFRB.D!
+'Exchange Rate: Swedish Kronor per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D144REXSDR.D!
+'Exchange Rate: Swedish Kronor per Special Drawing Right - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D144REXSDRD.D!
+'Exchange Rate: Special Drawing Rights per Swedish Kronor - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D146REXEURDECB.D!
+'Exchange Rate: Swiss Francs per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D146REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Swiss Francs - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D146REXFRB.D!
+'Exchange Rate: Swiss Francs per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D146REXSDR.D!
+'Exchange Rate: Swiss Francs per Special Drawing Right - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D146REXSDRD.D!
+'Exchange Rate: Special Drawing Rights per Swiss Francs - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D156REXEURDECB.D!
+'Exchange Rate: Canadian Dollars per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D156REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Canadian Dollars - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D156REXFRB.D!
+'Exchange Rate: Canadian Dollars per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D156REXSDR.D!
+'Exchange Rate: Canadian Dollars per Special Drawing Right - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D156REXSDRD.D!
+'Exchange Rate: Special Drawing Rights per Canadian Dollars - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D158REXEURDECB.D!
+'Exchange Rate: Japanese Yen per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D158REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Japanese Yen - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D158REXFRB.D!
+'Exchange Rate: Japanese Yen per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D158REXSDR.D!
+'Exchange Rate: Japanese Yen per Special Drawing Right - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D158REXSDRD.D!
+'Exchange Rate: Special Drawing Rights per Japanese Yen - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D163REXFRB.D!
+'Exchange Rate: Euro (pre 1999 ECU) per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D163REXSDR.D!
+'Exchange Rate: Euro per Special Drawing Right - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D163REXSDRD.D!
+'Exchange Rate: Special Drawing Rights per Euro - Fin. Market Indicative Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D176REXEURDECB.D!
+'Exchange Rate: Icelandic Kronur per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D176REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Icelandic Kronur - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D186REXEURDECB.D!
+'Exchange Rate: Turkish New Lira per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D186REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Turkish New Lira - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D193REXEURDECB.D!
+'Exchange Rate: Australian Dollars per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D193REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Australian Dollars - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D193REXFRB.D!
+'Exchange Rate: Australian Dollars per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D196REXEURDECB.D!
+'Exchange Rate: New Zealand Dollars per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D196REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per New Zealand Dollars - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D196REXFRB.D!
+'Exchange Rate: New Zealand Dollars per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D199REXEURDECB.D!
+'Exchange Rate: South African Rand per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D199REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per South African Rand - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D199REXFRB.D!
+'Exchange Rate: South African Rand per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D223REXEURDECB.D!
+'Exchange Rate: Brazilian Reais per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D223REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Brazilian Reais - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D223REXFRB.D!
+'Exchange Rate: Brazilian Reais per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D273REXEURDECB.D!
+'Exchange Rate: Mexican Pesos per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D273REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Mexican Pesos - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D273REXFRB.D!
+'Exchange Rate: Mexican Pesos per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D299REXFRB.D!
+'Exchange Rate: Venezuelan Bolivares Fuertes per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D436REXEURDECB.D!
+'Exchange Rate: Israeli New Shekels per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D436REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Israeli New Shekels - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D524REXFRB.D!
+'Exchange Rate: Sri Lankan Rupees per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D528REXFRB.D!
+'Exchange Rate: Taiwan Dollars per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D532REXEURDECB.D!
+'Exchange Rate: Hong Kong Dollars per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D532REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Hong Kong Dollars - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D532REXFRB.D!
+'Exchange Rate: Hong Kong Dollars per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D534REXEURDECB.D!
+'Exchange Rate: Indian Rupees per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D534REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Indian Rupees - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D534REXFRB.D!
+'Exchange Rate: Indian Rupees per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D536REXEURDECB.D!
+'Exchange Rate: Indonesian Rupiahs per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D536REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Indonesian Rupiahs - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D542REXEURDECB.D!
+'Exchange Rate: South Korean Won per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D542REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per South Korean Won - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D542REXFRB.D!
+'Exchange Rate: South Korean Won per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D548REXEURDECB.D!
+'Exchange Rate: Malaysian Ringgits per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D548REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Malaysian Ringgits - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D548REXFRB.D!
+'Exchange Rate: Malaysian Ringgits per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D566REXEURDECB.D!
+'Exchange Rate: Philippine Pesos per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D566REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Philippine Pesos - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D576REXEURDECB.D!
+'Exchange Rate: Singapore Dollars per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D576REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Singapore Dollars - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D576REXFRB.D!
+'Exchange Rate: Singapore Dollars per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D578REXEURDECB.D!
+'Exchange Rate: Thai Baht per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D578REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Thai Baht - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D578REXFRB.D!
+'Exchange Rate: Thai Baht per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D922REXEURDECB.D!
+'Exchange Rate: Russian Rubles per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D922REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Russian Rubles - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D924REXEURDECB.D!
+'Exchange Rate: Chinese Yuan Renminbi per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D924REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Chinese Yuan Renminbi - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D924REXFRB.D!
+'Exchange Rate: Chinese Yuan Renminbi per United States Dollar - FRB NY - Spot Noon Quotes (Buying) Bid eop (D)'!
+;
+SERIES<FREQ Daily >D935REXEURDECB.D!
+'Exchange Rate: Czech Koruny per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D935REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Czech Koruny - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D944REXEURDECB.D!
+'Exchange Rate: Hungarian Forint per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D944REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Hungarian Forint - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D964REXEURDECB.D!
+'Exchange Rate: Polish Zlotys per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D964REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Polish Zlotys - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D968REXEURDECB.D!
+'Exchange Rate: Romanian New Lei per Euro (prior to Dec 1998 ECU) - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;
+SERIES<FREQ Daily >D968REXEURECB.D!
+'Exchange Rate: Euro (prior to Dec 1998 ECU) per Romanian New Lei - Official ECB & EUROSTAT Reference - Spot Midpoint eop (D)'!
+;

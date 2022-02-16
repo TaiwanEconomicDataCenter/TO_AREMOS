@@ -1,0 +1,6 @@
+SERIES<FREQ Monthly >LNSEMCTTSPC.M!
+'United States Labor Force Statistics from the Current Population Survey, Employment Situation, Employment Research Series Smoothed for Population Control Adjustments, Seasonally Adjusted, Unit: Thousands of people, Source: Bureau Of Labor Statistics'!
+;
+SERIES<FREQ Monthly >LNSLFCTTSPC.M!
+'United States Labor Force Statistics from the Current Population Survey, Employment Situation, Labor Force Research Series Smoothed for Population Control Adjustments, Seasonally Adjusted, Unit: Thousands of people, Source: Bureau Of Labor Statistics'!
+;
