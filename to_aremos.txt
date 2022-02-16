@@ -1,0 +1,4 @@
+open<pri>gerfink;
+obey gerfin_data.txt;
+obey gerfin_doc.txt;
+backup gerfink gerfin01072021;
