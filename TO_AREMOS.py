@@ -5,6 +5,8 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 from datetime import datetime, date
+sys.path.append('../TO_DB')
+from TO_DB import SELECT_DF_KEY, SELECT_DATABASES
 
 ENCODING = 'utf-8-sig'
 data_path = './output/'
@@ -45,17 +47,37 @@ def FREQUENCY(freq):
     elif freq == 'A':
         return 'Annual'
 
-NAME = input("Bank: ")
-if NAME not in BANKS:
-    SPECIAL('Unknown Bank: '+NAME)
-if NAME == 'EIKON':
-    data_path = Path(os.path.realpath(data_path)).as_posix().replace('TO_AREMOS','GERFIN')+'/'
-elif NAME == 'ASIA':
-    data_path = Path(os.path.realpath(data_path)).as_posix().replace('TO_AREMOS','INTLINE')+'/'
+BOOL = {'T':True, 'F':False, '1':True, '0':False}
+mysql = BOOL[input("Reading Data From MySQL(T/F): ")]
+NAME = input("\nBank: ")
+data_suffix = input("Database(Output) suffix: ")
+if mysql:
+    df_key = SELECT_DF_KEY(NAME)
+    DATA_BASE_t = SELECT_DATABASES(NAME)
 else:
-    data_path = Path(os.path.realpath(data_path)).as_posix().replace('TO_AREMOS',NAME)+'/'
-data_suffix = input("Database suffix: ")
-BOOL = {'T':True, 'F':False}
+    if NAME not in BANKS:
+        SPECIAL('Unknown Bank: '+NAME)
+    if NAME == 'EIKON':
+        data_path = Path(os.path.realpath(data_path)).as_posix().replace('TO_AREMOS','GERFIN')+'/'
+    elif NAME == 'ASIA':
+        data_path = Path(os.path.realpath(data_path)).as_posix().replace('TO_AREMOS','INTLINE')+'/'
+    else:
+        data_path = Path(os.path.realpath(data_path)).as_posix().replace('TO_AREMOS',NAME)+'/'
+
+    print('Reading file: '+NAME+'_key'+data_suffix+', Time: ', int(time.time() - tStart),'s'+'\n')
+    df_key = readExcelFile(data_path+NAME+'_key'+data_suffix+'.xlsx', header_ = 0, acceptNoFile=False, index_col_=0, sheet_name_=NAME+'_key')   
+    try:
+        with open(data_path+NAME+'_database_num'+data_suffix+'.txt','r',encoding=ENCODING) as f:  #用with一次性完成open、close檔案
+            database_num = int(f.read().replace('\n', ''))
+        DATA_BASE_t = {}
+        for i in range(1,database_num+1):
+            print('Reading file: '+NAME+'_database_'+str(i)+data_suffix+', Time: ', int(time.time() - tStart),'s'+'\n')
+            DB_t = readExcelFile(data_path+NAME+'_database_'+str(i)+data_suffix+'.xlsx', header_ = 0, index_col_=0, acceptNoFile=False, sheet_name_=None)
+            for d in DB_t.keys():
+                DATA_BASE_t[d] = DB_t[d]
+    except:
+        print('Reading file: '+NAME+'_database'+data_suffix+', Time: ', int(time.time() - tStart),'s'+'\n')
+        DATA_BASE_t = readExcelFile(data_path+NAME+'_database'+data_suffix+'.xlsx', header_ = 0, index_col_=0, acceptNoFile=False)
 if NAME == 'EIKON' or NAME == 'GERFIN':
     START_YEAR = int(input("The .bnk file start from year: "))
 
@@ -66,20 +88,6 @@ if make_doc == False:
 
 tStart = time.time()
 end = ';'
-print('Reading file: '+NAME+'_key'+data_suffix+', Time: ', int(time.time() - tStart),'s'+'\n')
-df_key = readExcelFile(data_path+NAME+'_key'+data_suffix+'.xlsx', header_ = 0, acceptNoFile=False, index_col_=0, sheet_name_=NAME+'_key')   
-try:
-    with open(data_path+NAME+'_database_num'+data_suffix+'.txt','r',encoding=ENCODING) as f:  #用with一次性完成open、close檔案
-        database_num = int(f.read().replace('\n', ''))
-    DATA_BASE_t = {}
-    for i in range(1,database_num+1):
-        print('Reading file: '+NAME+'_database_'+str(i)+data_suffix+', Time: ', int(time.time() - tStart),'s'+'\n')
-        DB_t = readExcelFile(data_path+NAME+'_database_'+str(i)+data_suffix+'.xlsx', header_ = 0, index_col_=0, acceptNoFile=False, sheet_name_=None)
-        for d in DB_t.keys():
-            DATA_BASE_t[d] = DB_t[d]
-except:
-    print('Reading file: '+NAME+'_database'+data_suffix+', Time: ', int(time.time() - tStart),'s'+'\n')
-    DATA_BASE_t = readExcelFile(data_path+NAME+'_database'+data_suffix+'.xlsx', header_ = 0, index_col_=0, acceptNoFile=False)
 
 continue_making_data = False
 while True:
