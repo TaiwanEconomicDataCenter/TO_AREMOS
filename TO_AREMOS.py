@@ -48,9 +48,9 @@ def FREQUENCY(freq):
         return 'Annual'
 
 BOOL = {'T':True, 'F':False, '1':True, '0':False}
-mysql = BOOL[input("Reading Data From MySQL(T/F): ")]
 NAME = input("\nBank: ")
 data_suffix = input("Database(Output) suffix: ")
+mysql = BOOL[input("Reading Data From MySQL(T/F): ")]
 if mysql:
     df_key = SELECT_DF_KEY(NAME)
     DATA_BASE_t = SELECT_DATABASES(NAME)
