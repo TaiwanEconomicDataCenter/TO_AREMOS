@@ -15,7 +15,7 @@ BANKS = ['QNIA','MEI','GERFIN','EIKON','FOREX','US','INTLINE','ASIA']
 
 def ERROR(special_text):
     sys.stdout.write('\n\n')
-    print('= ! = '+error_text)
+    print('= ! = '+special_text)
     sys.stdout.write('\n\n')
     sys.exit()
 def readExcelFile(dir, default=pd.DataFrame(), acceptNoFile=False, \
@@ -47,6 +47,7 @@ def FREQUENCY(freq):
     elif freq == 'A':
         return 'Annual'
 
+tStart = time.time()
 BOOL = {'T':True, 'F':False, '1':True, '0':False}
 NAME = input("\nBank: ")
 data_suffix = input("Database(Output) suffix: ")
@@ -85,8 +86,6 @@ make_doc = BOOL[input("\nMaking Document(T/F): ")]
 doc_done = False
 if make_doc == False:
     doc_done = True
-
-tStart = time.time()
 end = ';'
 
 continue_making_data = False
