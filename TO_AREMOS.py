@@ -79,6 +79,47 @@ else:
     except:
         print('Reading file: '+NAME+'_database'+data_suffix+', Time: ', int(time.time() - tStart),'s'+'\n')
         DATA_BASE_t = readExcelFile(data_path+NAME+'_database'+data_suffix+'.xlsx', header_ = 0, index_col_=0, acceptNoFile=False)
+
+NonValue = ['nan','-','','None',None, np.nan]
+print(df_key)
+for i in range(df_key.shape[0]):
+    sys.stdout.write("\rChecking...("+str(round((i+1)*100/df_key.shape[0], 1))+"%)*")
+    sys.stdout.flush()
+    name = df_key.iloc[i]['name']
+    data = DATA_BASE_t[df_key.loc[df_key["name"] == name]["db_table"].iloc[0]][df_key.loc[df_key["name"] == name]["db_code"].iloc[0]]
+    try:
+        if df_key.iloc[i]['freq'] == 'D':
+            start = data.loc[~data.isin(NonValue)].index[-1]
+            last = data.loc[~data.isin(NonValue)].index[0]
+        else:
+            start = data.loc[~data.isin(NonValue)].index[0]
+            last = data.loc[~data.isin(NonValue)].index[-1]
+    except:
+        start = 'Nan'
+        last = 'Nan'
+    if start!=df_key.iloc[i]['start']:
+        print('name='+name+', old_start='+str(df_key.iloc[i]['start'])+', new_start='+str(start))
+        df_key.loc[i, 'start'] = start
+    if last!=df_key.iloc[i]['last']:
+        print('name='+name+', old_last='+str(df_key.iloc[i]['last'])+', new_last='+str(last))
+        df_key.loc[i, "last"] = last
+sys.stdout.write("\n\n")
+# print(df_key.loc[df_key['name']=='A928REXEUR'])
+# print(DATA_BASE_t[df_key.loc[df_key["name"] == "A928REXEUR"]["db_table"].iloc[0]][df_key.loc[df_key["name"] == "A928REXEUR"]["db_code"].iloc[0]])
+if BOOL[input('Modify df_key(1/0):')]:
+    from TO_DB import GET_PWD
+    import sqlalchemy
+    from sqlalchemy import create_engine
+    from sqlalchemy.types import VARCHAR
+    pwd = GET_PWD()
+    engine = create_engine('mysql+pymysql://root:'+pwd+'@localhost:3306/'+NAME.lower())
+    print('Time: '+str(int(time.time() - tStart))+' s'+'\n')
+    print('CREATE TABLE '+NAME+'_key'+'\n')
+    df_key.to_sql(NAME.lower()+'_key', con=engine, if_exists='replace', index=False, dtype={'name':VARCHAR(20)})
+    with engine.connect() as con:
+        con.execute('ALTER TABLE `'+NAME.lower()+'_key'+'` ADD PRIMARY KEY (`name`);')
+ERROR('')
+
 if NAME == 'EIKON' or NAME == 'GERFIN':
     START_YEAR = int(input("The .bnk file start from year: "))
 
@@ -154,7 +195,7 @@ while True:
                 sys.stdout.write("\rLoading...("+str(round((key+1)*100/df_key.shape[0], 1))+"%)*")
                 sys.stdout.flush()
 
-                if df_key.loc[key,'start'] == 'Nan':
+                if df_key.loc[key,'start'] == 'Nan' or str(df_key.loc[key,'start']) == 'None':
                     continue
                 freq = df_key.loc[key,'freq']
                 freq2 = freq
