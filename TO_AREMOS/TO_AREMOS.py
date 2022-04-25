@@ -80,7 +80,7 @@ else:
         print('Reading file: '+NAME+'_database'+data_suffix+', Time: ', int(time.time() - tStart),'s'+'\n')
         DATA_BASE_t = readExcelFile(data_path+NAME+'_database'+data_suffix+'.xlsx', header_ = 0, index_col_=0, acceptNoFile=False)
 
-NonValue = ['nan','-','','None',None, np.nan]
+"""NonValue = ['nan','-','','None',None, np.nan]
 print(df_key)
 for i in range(df_key.shape[0]):
     sys.stdout.write("\rChecking...("+str(round((i+1)*100/df_key.shape[0], 1))+"%)*")
@@ -118,7 +118,7 @@ if BOOL[input('Modify df_key(1/0):')]:
     df_key.to_sql(NAME.lower()+'_key', con=engine, if_exists='replace', index=False, dtype={'name':VARCHAR(20)})
     with engine.connect() as con:
         con.execute('ALTER TABLE `'+NAME.lower()+'_key'+'` ADD PRIMARY KEY (`name`);')
-ERROR('')
+ERROR('')"""
 
 if NAME == 'EIKON' or NAME == 'GERFIN':
     START_YEAR = int(input("The .bnk file start from year: "))
