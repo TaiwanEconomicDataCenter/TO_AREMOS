@@ -48,7 +48,7 @@ def FREQUENCY(freq):
         return 'Annual'
 
 tStart = time.time()
-BOOL = {'T':True, 'F':False, '1':True, '0':False}
+BOOL = {'T':True, 'F':False, 't':True, 'f':False, '1':True, '0':False}
 NAME = input("\nBank: ")
 data_suffix = input("Database(Output) suffix: ")
 mysql = BOOL[input("Reading Data From MySQL(T/F): ")]
