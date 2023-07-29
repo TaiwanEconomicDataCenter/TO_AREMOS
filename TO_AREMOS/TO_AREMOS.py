@@ -119,9 +119,12 @@ if BOOL[input('Modify df_key(1/0):')]:
     with engine.connect() as con:
         con.execute('ALTER TABLE `'+NAME.lower()+'_key'+'` ADD PRIMARY KEY (`name`);')
 ERROR('')"""
-
+keyword = ''
 if NAME == 'EIKON' or NAME == 'GERFIN':
     START_YEAR = int(input("The .bnk file start from year: "))
+elif NAME == 'US':
+    keyword = input("keyword: ")
+    data_suffix = data_suffix + keyword
 
 make_doc = BOOL[input("\nMaking Document(T/F): ")]
 doc_done = False
@@ -196,6 +199,8 @@ while True:
                 sys.stdout.flush()
 
                 if df_key.loc[key,'start'] == 'Nan' or str(df_key.loc[key,'start']) == 'None':
+                    continue
+                if NAME == 'US' and keyword == 'BEA' and str(df_key.loc[key,'source']) != 'Bureau of Economic Analysis':
                     continue
                 freq = df_key.loc[key,'freq']
                 freq2 = freq
@@ -382,6 +387,8 @@ while True:
             sys.stdout.flush()
 
             if df_key.loc[key,'start'] == 'Nan':
+                continue
+            if NAME == 'US' and keyword == 'BEA' and str(df_key.loc[key,'source']) != 'Bureau of Economic Analysis':
                 continue
             if NAME == 'EIKON' or NAME == 'GERFIN':
                 if datetime.today().year - START_YEAR > 20 and (str(df_key.loc[key,'start'])[:4] >= str(START_YEAR+10) or str(df_key.loc[key,'last'])[:4] < str(START_YEAR)):
